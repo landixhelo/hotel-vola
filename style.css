@@ -1,0 +1,500 @@
+::selection {
+    background-color: #DEBB5E;
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Amarante', serif;
+}
+
+header nav ul .nav-link {
+    color: #a79676;
+    font-weight: 500 ;
+    transition: .3s ease-in ;
+}
+
+header nav ul .nav-link.active {
+    color: #767171 !important;
+}
+
+header nav ul .nav-link:hover {
+    color: #767171 ;
+}
+
+header nav a.btn {
+    color: #767171;
+    border-color: #767171;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: none;
+}
+
+header nav a.btn:hover {
+    background-color: #a79676;
+    border-color: #a79676;
+}
+
+.main-bg {
+    background: url(assets/img-1.jpg) rgba(0, 0, 0, .5);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+main {
+    background-color: #1D1D1D;
+}
+
+.main-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.main-info h1 {
+    color: #BB9D6E;
+    font-weight: 700;
+}
+
+.main-info a.btn {
+    color: #a79676;
+    border-color: #a79676;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-info a.btn:hover {
+    color: #BB9D6E;
+    background-color: #767171;
+    border-color: #767171;
+}
+
+.img-container {
+    width: 90%;
+    height: 50%;
+}
+
+.about-section-text {
+    width: 90%;
+}
+
+.about-section h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #BB9D6E;
+    letter-spacing: 10px;
+    border-bottom: 1px solid #767171;
+}
+
+.about-section p {
+    margin-bottom: .5rem;
+}
+
+main .container .link-btn {
+    color: #a79676;
+    border-color: #a79676;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main .container .link-btn:hover {
+    color: #767171;
+    border-color: #767171;
+}
+
+.room-section {
+    height: fit-content;
+    padding-bottom: 1rem;
+}
+
+.room-section img {
+    height: 40vh;
+}
+
+.room-section p {
+    font-family: 'Roboto Condensed', serif;
+}
+
+.container .room-section .link-btn {
+    color: #FFFFFF96; 
+    border-color: #FFFFFF96;
+}
+
+#border-img {
+    height: 100%;
+}
+
+.facilities {
+    background: url(assets/photo5.jpg) rgba(255, 255, 255, .95);
+    background-position: center;
+    background-blend-mode: lighten;
+    height: 200vh;
+    font-size: 1.3rem;
+}
+
+.facilities i {
+    color: #a79676;
+    padding: 20px;
+}
+
+.facilities p {
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+}
+
+.facilities .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D1D8D8;
+    padding: 30px;
+    transition: .3s ease-in;
+}
+
+.facilities .col-lg-3:hover {
+    background-color: #ffb33b;
+}
+
+.gallery-section {
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.gallery-text {
+    margin-bottom: 1rem;
+}
+
+.gallery-section .col-md-5 {
+    padding: 0;
+}
+
+.gallery-section div img {
+    height: 30vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.review-section h2 {
+    color: #BB9D6E;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-section p{
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    color: #02010163;
+}
+
+.review-section img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+}
+
+.review-section .slide p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .container ul {
+    list-style: none;
+}
+
+footer .container li {
+    color: #fffef4;
+}
+
+footer .container li a, footer .container li a:hover {
+    color: #fffef4;
+    text-decoration: none;
+}
+
+footer .container li  .nav-link.active {
+    color: #fffef4;
+}
+
+footer .container .navbar li a {
+    padding: 0;
+}
+
+footer iframe {
+    width: 90%;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#im-img {
+    width: 35%;
+}
+
+/*About Styles*/
+.about-bg {
+    background: url(assets/img-7.jpg) rgba(0, 0, 0, .75);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 50vh;
+}
+
+.about-section h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #BB9D6E;
+    letter-spacing: 10px;
+}
+
+.offers i{
+    color: #a79676;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.offers span {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60%;
+}
+
+.reviews {
+    width: 100%;
+}
+
+.reviews .reviews-text {
+    height: 30%;
+}
+
+.reviews p {
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+.reviews img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+/*Rooms Style*/
+
+.rooms-bg {
+    background: url(assets/family-room-2.jpg) rgba(0, 0, 0, .75);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 50vh;
+}
+
+.room {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.room h2 {
+    color: #a79676;
+    border-bottom: 1px solid #a79676;
+}
+
+.room img {
+    height: 45vh;
+}
+
+.room i {
+    width: 6vw;
+    font-size: 1.5rem;
+    color: #a79676;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+main .container .room .link-btn {
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+/*Gallery Style */
+
+.gallery-bg {
+    background: url(assets/img-9.jpg) rgba(0, 0, 0, .5);
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    height: 50vh;
+}
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+
+
+ /*Contact Styles*/
+    
+ .contact-section{
+    transition: .3s ease-in;
+    padding: 1rem;
+ }
+
+ .contact-section:hover {
+    background-color: #ffb33b;
+ }
+
+ .contact-section i {
+    color: #BB9D6E;
+    font-size: 1.4rem;
+}
+ 
+ .contact-section a{
+    border-bottom: 1px transparent;
+}
+
+.contact-section a:hover {
+    border-bottom: 1px solid #BB9D6E;
+}
+
+@media only screen and (min-width: 768px){
+    .about-section {
+        margin-bottom: 3rem;
+    }
+
+    .img-container {
+        width: 45%;
+        height: 90%;
+    }
+    
+    .about-section-text {
+        width: 50%;
+    }
+
+    .room-section {
+        height: 80vh;
+    }
+
+    .room-section img {
+        width: 80%;
+        height: 40vh;
+    }
+
+    #border-img {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .gallery-section {
+        height: fit-content;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .gallery-text {
+        width: 60%;
+    }
+
+    .facilities {
+        height: 210vh;
+    }
+
+     /*Rooms Styles*/
+
+     .room i{
+        width: 4vw;
+    }
+
+    /*Contact Styles*/
+
+    .contact-section {
+        width: 30%;
+    }
+
+    main .justify-content-center iframe{
+        height: 50vh;
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header nav a.btn {
+        display: inline-block;
+    }
+
+    .main-bg h1 {
+        white-space: nowrap;
+    }
+
+    .facilities {
+        height: 100vh;
+    }
+
+    .gallery-section {
+        height: 80vh;
+    }
+
+    footer .container li {
+        white-space: nowrap;
+    }
+
+    #im-img {
+        width: 25%;
+    }
+
+    /*About Styles*/
+
+    .offers {
+        height: 60vh;
+    }
+
+    .reviews {
+        width: 25%;
+    }
+
+    /*Rooms Styles*/
+    .room {
+        width: 45%;
+    }
+
+    .room i {
+        width: 2vw;
+    }
+}
